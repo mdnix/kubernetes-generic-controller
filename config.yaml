@@ -1,0 +1,12 @@
+resources:
+  pod: true
+  deployment: true
+  replicationcontroller: true
+  replicaset: true
+  daemonset: true
+  services: true
+  secret: true
+  configmap: true
+  rolebinding: true
+handler:
+  name: Sample
